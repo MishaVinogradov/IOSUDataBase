@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Task5">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="WIN-0L58VJJH0V3:WIN-0L58VJJH0V3\user">
+          <Created>2021-12-22T10:57:14.8625784+03:00</Created>
+          <Type>SQL</Type>
+          <Server>WIN-0L58VJJH0V3</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InitDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InitDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InitTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InitTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertValues.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InsertValues.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
