@@ -3,10 +3,10 @@
   <Items>
     <LogicalFolder Name="Соединения" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="WIN-0L58VJJH0V3:WIN-0L58VJJH0V3\user">
-          <Created>2022-04-05T12:59:08.3054236+03:00</Created>
+        <ConnectionNode Name="WIN-PCQNKG7616T\MSSQLSERVER01:WIN-PCQNKG7616T\user">
+          <Created>2022-04-17T13:36:17.0936211+03:00</Created>
           <Type>SQL</Type>
-          <Server>WIN-0L58VJJH0V3</Server>
+          <Server>WIN-PCQNKG7616T\MSSQLSERVER01</Server>
           <UserName />
           <Authentication>Проверка подлинности Windows</Authentication>
           <InitialDB />
@@ -50,8 +50,8 @@
           <FullPath>5.sql</FullPath>
         </FileNode>
         <FileNode Name="6.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>6.sql</FullPath>
         </FileNode>
@@ -74,68 +74,116 @@
           <FullPath>9.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_Actor.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_Actor.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_Cast.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_Cast.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_Catalogue.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_Catalogue.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_Country.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_Country.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_Director.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_Director.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_Film.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_Film.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_Genre.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_Genre.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_Purchase.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_Purchase.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_ShoppingCart.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_ShoppingCart.sql</FullPath>
         </FileNode>
         <FileNode Name="CREATE_TABLE_StorageMedium.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CREATE_TABLE_StorageMedium.sql</FullPath>
         </FileNode>
+        <FileNode Name="fActorID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fActorID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fCatalogueID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fCatalogueID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fCountryID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fCountryID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fDirectorID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fDirectorID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fFilmID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fFilmID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGenreID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGenreID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fPurchaseID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fPurchaseID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fStorageMediumID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fStorageMediumID.sql</FullPath>
+        </FileNode>
         <FileNode Name="InitDB.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>InitDB.sql</FullPath>
         </FileNode>
@@ -146,16 +194,70 @@
           <FullPath>InitTable.sql</FullPath>
         </FileNode>
         <FileNode Name="InsertValues.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>InsertValues.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+        <FileNode Name="pActor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>pActor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pCast.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pCast.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pCatalogue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pCatalogue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pCountry.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pCountry.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pDirector.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pDirector.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pFilm.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pFilm.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pGenre.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pGenre.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pPurchase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pPurchase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pShoppingCart.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pShoppingCart.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pStorageMedium.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-PCQNKG7616T\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-PCQNKG7616T\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>pStorageMedium.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

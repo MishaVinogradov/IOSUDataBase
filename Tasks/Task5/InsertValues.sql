@@ -1,56 +1,53 @@
 -- Insert Directors
-INSERT INTO Director VALUES ('Quentin', 'Tarantino', '1963-03-27', NULL);
-INSERT INTO Director VALUES ('Stanley', 'Kubrick', '1928-07-26', '1999-03-07');
+EXEC dbo.pDirectorInsert 'Quentin', 'Tarantino', '1963-03-27', NULL
+EXEC dbo.pDirectorInsert 'Stanley', 'Kubrick', '1928-07-26', '1999-03-07'
 
 -- Insert Storage Medium
-INSERT INTO StorageMedium VALUES ('CD');
-INSERT INTO StorageMedium VALUES ('Tape');
-INSERT INTO StorageMedium VALUES ('Online');
+EXEC dbo.pStorageMediumInsert 'CD'
+EXEC dbo.pStorageMediumInsert 'Tape'
+EXEC dbo.pStorageMediumInsert 'Online'
 
 -- Insert Countries
-INSERT INTO Country VALUES ('United States');
-INSERT INTO Country VALUES ('United Kingdom');
+EXEC dbo.pCountryInsert 'United States'
+EXEC dbo.pCountryInsert 'United Kingdom'
 
 -- Insert Genres
-INSERT INTO Genre VALUES ('Action');
-INSERT INTO Genre VALUES ('Adventure');
-INSERT INTO Genre VALUES ('Drama');
-INSERT INTO Genre VALUES ('Thriller');
+EXEC dbo.pGenreInsert 'Action'
+EXEC dbo.pGenreInsert 'Adventure'
+EXEC dbo.pGenreInsert 'Drama'
+EXEC dbo.pGenreInsert 'Thriller'
 
 --Insert Film
-INSERT INTO Film VALUES ('Pulp Fiction', 'Cool','120',1,1,1);
-INSERT INTO Film VALUES ('Django Unchained', 'Piw pow','150',1,1,1);
-INSERT INTO Film VALUES ('A Clockwork Orange', 'Wow','152',2,2,2);
+EXEC dbo.pFilmInsert 'Pulp Fiction', 'Cool', 120, 'United States', 'Action', 'Quentin', 'Tarantino', '1963-03-27'
+EXEC dbo.pFilmInsert 'Django Unchained', 'Piw pow', 150, 'United States', 'Action', 'Quentin', 'Tarantino', '1963-03-27'
+EXEC dbo.pFilmInsert 'A Clockwork Orange', 'Wow', 152, 'United States', 'Adventure', 'Stanley', 'Kubrick', '1928-07-26'
 
 --Insert Actors
-INSERT INTO Actor VALUES ('John', 'Travolta','1954-02-18', NULL);
-INSERT INTO Actor VALUES ('Samuel', 'L.Jackson','1948-12-21', NULL);
-INSERT INTO Actor VALUES ('Malcolm', 'McDowell','1943-06-13', NULL);
+EXEC dbo.pActorInsert 'John', 'Travolta','1954-02-18', NULL
+EXEC dbo.pActorInsert 'Samuel', 'L.Jackson','1948-12-21', NULL
+EXEC dbo.pActorInsert 'Malcolm', 'McDowell','1943-06-13', NULL
 
 --Insert Cast
-INSERT INTO [Cast] VALUES (1,1);
-INSERT INTO [Cast] VALUES (1,2);
-INSERT INTO [Cast] VALUES (2,2);
-INSERT INTO [Cast] VALUES (3,3);
+EXEC dbo.pCastInsert 'Pulp Fiction', 'John', 'Travolta', '1954-02-18'
+EXEC dbo.pCastInsert 'Pulp Fiction', 'Samuel', 'L.Jackson', '1948-12-21'
+EXEC dbo.pCastInsert 'Django Unchained', 'Samuel', 'L.Jackson', '1948-12-21'
+EXEC dbo.pCastInsert 'A Clockwork Orange', 'Malcolm', 'McDowell', '1943-06-13'
 
 --Insert Catologue
-INSERT INTO Catalogue VALUES (1,10,1,1);
-INSERT INTO Catalogue VALUES (1,10,1,2);
-INSERT INTO Catalogue VALUES (2,11,1,1);
-INSERT INTO Catalogue VALUES (3,15,1,2);
+EXEC dbo.pCatalogueInsert '54T5GGREG', 'Pulp Fiction',1,1, 'CD'
+EXEC dbo.pCatalogueInsert '54TFJISDF', 'Pulp Fiction',1,1, 'Tape'
+EXEC dbo.pCatalogueInsert 'FWEFWEF43', 'Django Unchained',11,1,'Online'
 
 
-INSERT INTO Catalogue VALUES (1,10,0,1);
-INSERT INTO Catalogue VALUES (1,10,0,2);
-INSERT INTO Catalogue VALUES (1,5,0,3);
-
+EXEC dbo.pCatalogueInsert '54T5G34N34', 'Pulp Fiction',1,0, 'CD'
+EXEC dbo.pCatalogueInsert '54TF34H34C', 'Pulp Fiction',1,0, 'Tape'
+EXEC dbo.pCatalogueInsert 'FWEF34S343', 'Django Unchained',11,0,'Online'
 --Insert Purchase
-INSERT INTO Purchase VALUES ('1999-04-12','1234 3242 4234 3243', '5435323443');
-INSERT INTO Purchase VALUES ('2000-04-12','1234 3242 4234 4234', '5435322342');
+EXEC dbo.pPurchaseInsert 'FWEFWER', '1999-04-12','1234 3242 4234 3243', '5435323443'
+EXEC dbo.pPurchaseInsert 'FWEFDFR', '2000-04-12','1234 3242 4234 4234', '5435322342'
 
 --Insert ShoppingCart
-INSERT INTO ShoppingCart VALUES (1,1);
-INSERT INTO ShoppingCart VALUES (2,1);
+EXEC dbo.pShoppingCartInsert '54T5GGREG', 'FWEFWER'
+EXEC dbo.pShoppingCartInsert '54TFJISDF', 'FWEFWER'
 
-INSERT INTO ShoppingCart VALUES (3,2);
-INSERT INTO ShoppingCart VALUES (4,2);
+EXEC dbo.pShoppingCartInsert '54TFJISDF', 'FWEFDFR'
