@@ -1,6 +1,5 @@
 USE FilmShop;
 
-
 CREATE TABLE Director (
     DirectorID INT PRIMARY KEY IDENTITY(1,1),
     FirstName VARCHAR(255) NOT NULL,
@@ -35,7 +34,6 @@ CREATE TABLE Film (
 	FOREIGN KEY (GenreID) REFERENCES Genre (GenreID),
 	DirectorID INT NOT NULL,
 	FOREIGN KEY (DirectorID) REFERENCES Director (DirectorID),
-
 );
 
 CREATE TABLE Actor (
