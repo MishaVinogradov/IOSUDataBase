@@ -50,4 +50,3 @@ EXEC dbo.pPurchaseInsert 'FWEFDFR', '2000-04-12','1234 3242 4234 4234', '5435322
 EXEC dbo.pShoppingCartInsert '54T5GGREG', 'FWEFWER'
 EXEC dbo.pShoppingCartInsert '54TFJISDF', 'FWEFWER'
 
-EXEC dbo.pShoppingCartInsert '54TFJISDF', 'FWEFDFR'
